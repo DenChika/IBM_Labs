@@ -67,5 +67,19 @@ $\theta + 2\theta * t = \pi / 2$ или $1/\sqrt{N} * (1 + 2t) = \pi / 2$,\
 
 ![image](https://user-images.githubusercontent.com/79001610/172029833-05427247-ca68-4b68-93e5-068f10117a29.png)
 
+Оракул $\upsilon$ <sub> s </sub> выглядит так:
 
+![image](https://user-images.githubusercontent.com/79001610/172030344-932f82a2-95d5-4ddc-85f7-ca5ab268dfaf.png)
 
+![image](https://user-images.githubusercontent.com/79001610/172030352-813cf531-6cef-4734-a5b5-dc24bbbb36f1.png)
+
+Общая схема:
+
+![image](https://user-images.githubusercontent.com/79001610/172030368-305d37aa-ac57-43fd-aa3e-1698bdfe826b.png)
+
+Гейты Адамара перед и после каждого применения оракулы нужны для преобразования |s> в |0> и обратно соответственно.
+
+![image](https://user-images.githubusercontent.com/79001610/172030410-7e6de6f2-b1df-4f67-887c-de7a5ac09a3a.png)
+
+## Вывод
+Мы рассмотрели алгоритм Гровера, он нужен для быстрого нелинейного поиска нужного элемента в списке. Также объяснили принцип работы алгоритма и разобрали пример с 2мя кубитами, когда нужное нам состояние равно |11>.
