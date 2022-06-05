@@ -55,4 +55,17 @@ $\theta + 2\theta * t = \pi / 2$ или $1/\sqrt{N} * (1 + 2t) = \pi / 2$,\
 
 ### Пример (2 кубита)
 Имея N = 4 нетрудно посчитать, что нам достаточно всего одной итерации алгоритма для получения наивысшей вероятности.\
-Рассмотрим |$\omega$ > = |11>
+Рассмотрим |$\omega$ > = |11>. В данном случае оракул $\upsilon$ <sub> $\omega$ </sub> действует следующим образом:
+
+![image](https://user-images.githubusercontent.com/79001610/172029819-80e9df1e-4d78-4cd5-a479-bb0a14263c02.png)
+
+или:
+  
+![image](https://user-images.githubusercontent.com/79001610/172029824-0aa48c76-c35c-4b60-9ff2-400b585d8035.png)
+
+В IBM Compose это представленно в виде:
+
+![image](https://user-images.githubusercontent.com/79001610/172029833-05427247-ca68-4b68-93e5-068f10117a29.png)
+
+
+
